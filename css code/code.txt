@@ -1,0 +1,166 @@
+                            /* start page */
+                            
+                            .page .navbar .container-fluid ul li a {
+                                background-color: #ddd;
+                                padding: 10px;
+                                margin-left: 10px;
+                                margin-right: 10px;
+                                transition: 0.4s;
+                                position: relative;
+                                border-radius: 10px;
+                                overflow: hidden;
+                                transition: 2s;
+                                margin-bottom: 10px;
+                            }
+                            
+                            .page .navbar .container-fluid ul li a::before {
+                                content: "";
+                                position: absolute;
+                                width: 0px;
+                                height: 2px;
+                                background-color: black;
+                                left: 0px;
+                                bottom: 0px;
+                                transition: 3s;
+                            }
+                            
+                            .page .navbar .container-fluid ul li a:hover::before {
+                                width: 100%;
+                                transition: 1s;
+                                font-weight: bold;
+                            }
+                            
+                            .page .landing {
+                                background-color: #ccc;
+                                padding: 10px;
+                            }
+                            
+                            .page .landing .continer h4 {
+                                position: relative;
+                                padding-bottom: 3px;
+                            }
+                            
+                            .page .landing .continer h4::before {
+                                content: "";
+                                position: absolute;
+                                content: "";
+                                position: absolute;
+                                width: 200px;
+                                height: 3px;
+                                background: red;
+                                bottom: 0px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                border-radius: 23px;
+                            }
+                            
+                            .page .menu .continer h4 {
+                                position: relative;
+                                padding-bottom: 3px;
+                            }
+                            
+                            .page .menu .continer h4::before {
+                                content: "";
+                                position: absolute;
+                                content: "";
+                                position: absolute;
+                                width: 200px;
+                                height: 3px;
+                                background: red;
+                                bottom: 0px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                border-radius: 23px;
+                            }
+                            
+                            .page .reversion .continer h3 {
+                                position: relative;
+                                padding-bottom: 6px;
+                            }
+                            
+                            .page .reversion .continer h3::before {
+                                content: "";
+                                position: absolute;
+                                content: "";
+                                position: absolute;
+                                width: 180px;
+                                height: 3px;
+                                background: red;
+                                bottom: 0px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                border-radius: 23px;
+                            }
+                            
+                            .page .reversion .content .image {
+                                position: relative;
+                                overflow: hidden;
+                            }
+                            
+                            .page .reversion .content .image img+div {
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgb(0, 0, 0, 50%);
+                                left: 0px;
+                                top: 0px;
+                            }
+                            
+                            @media (max-width:767px) {
+                                .page .reversion .content {
+                                    display: none;
+                                }
+                            }
+                            
+                            .page .reversion .content .image .info h4 {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                color: white;
+                                font-weight: bold;
+                                font-size: 70px;
+                                margin-bottom: 20px;
+                                text-align: center;
+                                width: 100%;
+                            }
+                            
+                            .page .reversion .content .image .info h5 {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                color: white;
+                                font-weight: bold;
+                                margin-top: 100px;
+                                text-align: center;
+                                font-size: 40px;
+                            }
+                            
+                            .page .reversion .content .image .info h6 {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                color: white;
+                                font-weight: bold;
+                                margin-top: 230px;
+                                text-align: center;
+                                font-size: 40px;
+                            }
+                            
+                            .page .footer {
+                                background-color: #ccc;
+                                padding: 10px;
+                            }
+                            
+                            .page .footer input {
+                                border: none;
+                                outline: none;
+                            }
+                            
+                            .page .footer .continer .row input:focus {
+                                box-shadow: 0px 0px 20px black;
+                            }
+                            /* end page */
+                            /* end page */

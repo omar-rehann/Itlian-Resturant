@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- start pagee -->
+    <div class="page">
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="images/logo.png" style="width: 40px;height: 40px;"> Italian Resturant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#wel">Welcome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#res">Resturant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#men">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rev">Reversrion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our">Our Location</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <!-- start carouserl -->
+        <div class="carouserl" id="wel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> Hello To First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5> Heelo To Second label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Hello To Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- end carouserl -->
+        <!-- after landing -->
+        <div class="landing" id="res">
+            <div class="continer mt-4 text-center text-dark">
+                <h4> Welcome To Resturant</h4>
+            </div>
+            <div class="content">
+                <div class="row m-2   align-items-center">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="info m-2">
+                            <h2>Location</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, iusto eveniet. Quia deserunt similique nihil, necessitatibus nesciunt veniam eveniet inventore ut, iure saepe iste facere ab porro optio eos libero.</p>
+                            <h3>A Unique Expericneses</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti totam nobis ipsa at amet suscipit laborum placeat, odio tempore dolores nisi maxime voluptates magni veritatis quae illum aut assumenda.</p>
+                            <h3>Important Artices</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti totam nobis ipsa at amet suscipit laborum placeat, odio tempore dolores nisi maxime voluptates magni veritatis quae illum aut assumenda.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 mb-1 mt-1">
+                        <div class="image">
+                            <img src="images/cuisine.jpg" class="w-100 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="image">
+                            <img src="images/location.jpg" class="w-100 rounded" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 mb-1 mt-1">
+                        <div class="info m-2">
+                            <h2>CUSINE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, iusto eveniet. Quia deserunt similique nihil, necessitatibus nesciunt veniam eveniet inventore ut, iure saepe iste facere ab porro optio eos libero.</p>
+                            <h3>A Unique Expericneses</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti totam nobis ipsa at amet suscipit laborum placeat, odio tempore dolores nisi maxime voluptates magni veritatis quae illum aut assumenda.</p>
+                            <h3>Important News</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corrupti totam nobis ipsa at amet suscipit laborum placeat, odio tempore dolores nisi maxime voluptates magni veritatis quae illum aut assumenda.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end landing -->
+
+
+
+
+
+
+
+        </div>
+        <!-- start menu -->
+        <div class="menu" id="men">
+            <div class="continer text-center mt-3">
+                <h4> Hello To Menu Resturant </h4>
+            </div>
+            <div class="content">
+                <div class="row m-2 mt-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://images.unsplash.com/photo-1538140177897-d71d1643349e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMG1lYXR8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Meat Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Bocconcini di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZCUyMGZpc2h8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Fish-Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Bocconcini di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://images.unsplash.com/photo-1471248026681-35a45d5530a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZCUyMHZlZ2V0YWJsZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vegetarian-Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Styurenl di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://images.unsplash.com/photo-1619685350254-c7b4e26988eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMGRvbmF0c3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Donats-Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Styurenl di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://plus.unsplash.com/premium_photo-1663050769686-b5e7db606a0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMG51dHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nuts-Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Styurenl di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width: 100%;">
+                            <img src="https://images.unsplash.com/photo-1633045422334-0313534ff82a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2QlMjBmcml1dHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Friuts-Menu</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Styurenl di carne in nido di sfoglia</li>
+                                <li class="list-group-item">Bruschette con maiale al curry</li>
+                                <li class="list-group-item">Uova al prosciutto
+                                </li>
+                                <li class="list-group-item">Vitello Tonnato</li>
+                                <li class="list-group-item">Fesa di tacchino marinata con olive</li>
+
+
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link btn btn-primary">Order-Now</a>
+                                <a href="#" class="card-link btn btn-primary">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end menu -->
+        <!-- start revsersion -->
+        <div class="reversion mt-4" id="rev">
+            <div class="continer text-center">
+                <h3> Hello To Reversion</h3>
+            </div>
+            <div class="content m-2">
+                <div class="image position-relative">
+                    <img src="images/reserve.jpg" class="w-100 rounded" alt="">
+                    <div></div>
+                    <div class="info">
+
+                        <h4>Time Tables</h4>
+                        <h5>Lunch <br> 12:00 - 15:00</h5>
+                        <h6>Diner <br>19:30-23:30</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end reversion -->
+        <!-- start footer -->
+        <div class="footer" id="our">
+            <div class="continer">
+                <div class="row m-2 ">
+                    <div class="col-md-6 col-lg-6">
+                        <h4 class="ms-2">Reverser</h4>
+                        <h4 class="ms-2">Date:</h4>
+                        <input type="date" placeholder="MM-DD-YY" id="date" class="w-100 ms-2 mt-2 p-2 rounded mb-2">
+                        <h4 class="ms-2 mt-1">Time Table</h4>
+                        <input type="time" class="w-100 ms-2 p-2 mt-2  rounded  " name="" id="">
+                        <h4 class="ms-2 mt-1">Number:</h4>
+                        <input type="number" placeholder="Number Of Gusets" class="w-100 ms-2 p-2 mt-2  rounded  " name="" id="">
+
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <h4 class="ms-2 mt-2">Detials</h4>
+                        <h4 class="ms-2">Name:</h4>
+                        <input type="text" placeholder="Enter-Name" id="date" class="w-100 ms-2 mt-2 p-2 rounded mb-2">
+                        <h4 class="ms-2 mt-1">Email:</h4>
+                        <input type="email" class="w-100 ms-2 p-2 mt-2  rounded  " placeholder="Email" name="" id="">
+                        <h4 class="ms-2 mt-1">Phone:</h4>
+                        <input type="text" placeholder="Enter Phone Number" class="w-100 ms-2 p-2 mt-2  rounded  " name="" id="">
+
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <textarea name="" class="w-100 rounded mt-4" style="resize: none;" placeholder="Enter-Your-Message" id="" cols="30" rows="10"></textarea>
+                        <button class="btn btn-outline-danger  p-2 mt-2">Reverse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end footer -->
+        <!-- end project -->
+        <div class="end text-center">
+            <div class="continer mt-3">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <h4 style="font-style: italic;">Follow-Us:<i class="fa-brands fa-facebook" style="color: #0d56d3;margin-left: 3px;"></i> <i class="fa-brands fa-instagram" style="color: #105ada;"></i> </h4>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 style="font-style: italic;">Copy &copy; 2045</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <h4 style="font-style: italic;">Design By <span style="color: blue;font-weight: bold;">:Omar Rehan</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end pagee -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
